@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shouye</title>
+<style type="text/css">body{ background-color: #FFFAF4;}
+
+
+  #lbt {
+    width: 500px;/*设置轮播区域的宽高，即父级盒子宽高*/
+    height: 400px;
+    overflow: hidden;/*设置超出部分隐藏，因为photo盒子超出父级盒子blt的宽度*/
+   display: block;
+   margin:10px auto;
+}
+ 
+#photo {
+    width: 2500px;/*每张图片宽度500px，一共放5张图片，所以photo盒子宽度为500*5=2500px*/
+    animation: move 10s ease-out infinite;/*设置动画名称叫move，完成此动画需要时长10s,动画类型ease-out即以慢速结束的过渡效果，动画播放次数infinite即无限次*/
+}
+ 
+#photo > img {/*子选择器，指定photo里的img元素*/
+    float: left;/*所有的图片都向同一个方向浮动*/
+    width: 500px;/*设置所有的图片具有同样的宽高，因为他们共用一个div盒子，在这个盒子里进行轮换展示*/
+    height: 400px;
+}
+ 
+@keyframes move {/*以百分比来规定改变发生的时间，0% 是动画的开始时间，100% 动画的结束时间。*/
+    0%, 20% {
+        margin-left: 0;
+    }
+    20%, 40% {
+        margin-left: -500px;
+    }
+    40%, 60% {
+        margin-left: -1000px;
+    } 60%, 80% {
+        margin-left: -1500px;
+    } 80%, 100% {
+        margin-left: -2000px;
+    }
+}
+.ds{width: 100%;
+    height: 50px;
+display: block;
+   text-align: center;
+           line-height:50px;
+            font: 30px "华文行楷";
+
+}
+
+
+
+
+	.sy{
+	width:100%;
+	height:380px;
+	
+background: url(images/p.png) no-repeat;
+background-size:300px 380px;
+margin-top:50px;
+margin-bottom:20px;
+
+	
+}
+
+.js{width:1000px;height:380px;
+	 float: left; padding-left: 300px;
+             margin:15px;
+               font: 18px "微软雅黑";
+
+}
+
+	
+</style></head>
+<body>
+	<div id="lbt">
+        <div id="photo">
+            <img src="images/q.png" />
+            <img src="images/w.png" />
+            <img src="images/e.png" /><img src="images/r.png" />
+            <img src="images/t.png" />
+        </div></div><div class="ds">愿以我百年孤独，千难万阻，换取你来生安度，无忧如初。 </div>
+<div class="sy">
+
+<div class="js"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《西游记之大圣归来》是根据中国传统神话故事《西游记》进行拓展和演绎的3D动画电影，由横店影视、天空之城、燕城十月与微影时代联合高路动画、恭梓兄弟、世纪长龙、山东影视、东台龙行盛世、淮安西游产业与永康壹禾共同出品，田晓鹏执导，张磊、林子杰、刘九容和童自荣等联袂配音。<br><br><br><hr>
+	<table border=0 cellpadding=0 cellspacing=0  align=center width="80%" >
+ <tr>
+ <td>中文名</td>
+ <th >西游记之大圣归来</th> 
+<td>制片人</td>
+ <th >刘志江、姜辉、林中伦、杨丹</th>
+</tr>
+
+<tr>
+ <td>外文名</td>
+ <th >Monkey King: Hero Is Back</th> 
+<td>类    型</td>
+ <th >神话、动画</th>
+</tr>
+<tr>
+ <td>出品公司</td>
+ <th >横店影视，天空之城，燕城十月，微影时代</th> 
+<td>上映时间</td>
+ <th >2015年07月10日</th>
+</tr>
+<tr>
+ <td>发行公司</td>
+ <th >聚合影联</th> 
+<td>票    房</td>
+ <th >9.56亿人民币</th>
+</tr><tr>
+<td>制片地区</td>
+ <th >中国</th> 
+<td>对白语言</td>
+ <th >普通话</th>
+</tr><tr><td>导    演</td>
+ <th >田晓鹏</th> 
+<td>色    彩</td>
+ <th >彩色</th>
+</tr><tr><td>编    剧</td>
+ <th >田晓鹏、刘虎、米粒、金冉、金成</th> 
+<td>主要奖项</td>
+ <th >第30届中国电影金鸡奖最佳美术片</th>
+</tr>
+
+
+
+
+
+</div></div>
+	
+</body>
+</html>
